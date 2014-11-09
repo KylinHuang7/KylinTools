@@ -13,6 +13,8 @@ CountToPoint.exe    算24点
 IDCard.pm           身份证号验证
 testIDCard.pl
 
+run_cron.py         iNotify监控文件修改
+
 sessionid.pl        生成随机字符串
 
 WebBrowser.pm       HTTP请求模拟器
