@@ -3,10 +3,10 @@
 ### 原播放器随机功能很差，特重新开发此程序，将音乐列表按照歌手打乱
 
 $SONG_PATH = "I:\\";
-$SONG_PATTERN = "/\\.mp3$/"; # 只搜mp3文件
+$SONG_PATTERN = '/\\.mp3$/'; # 只搜mp3文件
 $SONG_DELIMETER = ' - ';  # 文件名：歌手 - 歌曲.mp3
 $WIDTH = 3; # 同一歌手几首内不再次出现
-$OUTPUT_FILE = "I:\\$APP$\\AudioFileList-new.cfg";
+$OUTPUT_FILE = 'I:\\$APP$\\AudioFileList-new.cfg'
 $OUTPUT_PRIFIX = "SDMMC\\";
 
 function list2hash($s_list, $deli) {
